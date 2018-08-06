@@ -69,6 +69,7 @@ public class FirefoxTest {
     @After
     public void teardown() throws IOException {
         driver.quit();
+        driver.get("http://google.com");
     }
 
 }
